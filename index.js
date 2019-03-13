@@ -4,9 +4,6 @@ function printBadges(array) {
   }
   return array;
 }
-function maybeTrue() {
-  return ;
-}
 
 function tailsNeverFails() {
   let sum = 0;

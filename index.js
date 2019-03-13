@@ -2,7 +2,7 @@ function printBadges(array) {
   for (var i = 0; i < array.length; i++) {
     console.log(`Welcome ${array[i]}! You are employee #${i}.`);
   }
-  return array;
+   array;
 }
 
 function maybeTrue() {
@@ -11,8 +11,6 @@ function maybeTrue() {
 
 function tailsNeverFails() {
   let sum = 0;
-
-
   while (maybeTrue()) {
     sum += 1;
   }

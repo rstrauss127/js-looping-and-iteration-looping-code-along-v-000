@@ -1,5 +1,5 @@
 function printBadges(array) {
-  for (i = 0; i < array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     console.log(`Welcome ${array[i]}! You are employee #${i}.`);
   }
   return array;

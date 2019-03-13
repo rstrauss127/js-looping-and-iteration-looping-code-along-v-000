@@ -7,9 +7,8 @@ function printBadges(array) {
 
 function tailsNeverFails() {
   let sum = 0;
-
   while (Math.random() >= 0.5) {
-    sum += 1;
+    sum++;
   }
-return  console.log(`You got ${sum} tails in a row!`);
+  return  console.log(`You got ${sum} tails in a row!`);
 }

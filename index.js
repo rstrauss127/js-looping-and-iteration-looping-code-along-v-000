@@ -5,14 +5,14 @@ function printBadges(array) {
   return array;
 }
 function maybeTrue() {
-  return Math.random() >= 0.5;
+  return ;
 }
 
 function tailsNeverFails() {
   let sum = 0;
 
 
-  while (maybeTrue()) {
+  while (Math.random() >= 0.5) {
     sum += 1;
   }
 return  console.log(`You got ${sum} tails in a row!`);

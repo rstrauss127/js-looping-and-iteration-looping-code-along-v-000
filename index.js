@@ -10,5 +10,5 @@ function tailsNeverFails() {
   while (Math.random() >= 0.5) {
     sum++;
   }
-  return  console.log(`You got ${sum} tails in a row!`);
+  console.log(`You got ${sum} tails in a row!`);
 }

@@ -11,7 +11,6 @@ function maybeTrue() {
 function tailsNeverFails() {
   let sum = 0;
 
-
   while (Math.random() >= 0.5) {
     sum += 1;
   }
